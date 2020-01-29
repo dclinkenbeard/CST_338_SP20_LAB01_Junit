@@ -1,5 +1,6 @@
 /**
- * This is a class designed to represent a playing card.
+ * Remember to add your name and the date... <br>
+ * This is a class designed to represent a playing card. <br>
  * The suit values should PROBABLY be set in an ENUM but we will add that later.
  * <br>
  * <p>This object is known as a POJO or a Plain Old Java Object. It represents a piece of data,
@@ -70,7 +71,7 @@ public class Card {
             default:
                 return value.toString();
         }
-    };
+    }
     /** returns the suit of the card. or possible the suite */
     public String getSuit() {
         return suit;
